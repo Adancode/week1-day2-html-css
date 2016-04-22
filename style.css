@@ -1,25 +1,32 @@
-img  {
-	height: 160px;
-	width: 160px;
-	float: left;
+#bio-image  {
+	height: 200px;
+	width: 200px;
 	margin-right: 20px;
 	margin-bottom: 20px;
+	float: left;
 }
 
 #heading {
-	background: grey;
+	background: #333333;
 	text-align: center;
+	font-size: 28px;
 	color: white;
 }
 
-#contact {
-	float: right;
+h2 {
+	font-size: 24px;
 }
 
-#main-content {
-	min-width: 650px;
-	max-width: 650px;
+#contact-info {
 	float: left;
+	width: 30%;
+}
+
+#main-bio {
+	width: 68%;
+	float: left;
+	line-height: 150%;
+	margin-right: 2%;
 }
 
 ul {
@@ -27,8 +34,15 @@ ul {
 	padding-left: 0;
 }
 
-body {
-	min-width: 840px;
-	max-width: 840px;
+.container {
+	width: 1024px;
 	margin: 0 auto;
+}
+
+body {
+	margin-top: -21px;
+	padding: 0px;
+	background: #efeee7;
+	font-family: "Georgia",Times New Roman,Times,serif;
+	color: #333333;
 }
